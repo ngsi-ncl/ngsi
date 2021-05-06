@@ -1,2 +1,2 @@
 # ngsi
-Website of Newcastle (UK) Green Spaces Initiative
+Website of Newcastle (UK) Green Spaces Initiative.
