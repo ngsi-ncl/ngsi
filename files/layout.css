@@ -1,0 +1,201 @@
+html {
+height:100%;
+}
+
+body {
+margin:0px;
+/*background:#58FA58;*/
+background:#58FA58;
+height:100%;
+font-family:arial, sans-serif;
+font-size:1.0em;
+}
+	
+#Page {
+width:940px;
+margin-left:auto;
+margin-right:auto;
+padding:10px;
+background:#FFF;
+/*height:100%;*/	//Specify 100% height on all containing blocks too!
+}
+
+#Column1 {
+width:215px;
+float:left;
+clear:both;
+margin-right:20px;
+margin-bottom:40px;
+/*background-image:url('Oxeye.daisy.jpg');*/
+background-repeat:no-repeat;
+}
+
+#Column2 {
+width:702px;
+float:left;
+line-height:150%;
+margin-bottom:40px;
+}
+
+#FundingLogos {
+clear:both;
+}
+
+#FundingLogos img
+{
+float:left;
+margin:0 40px 40px 40px;
+}
+
+#Footer {
+clear:both;
+border-top:solid 2px #58FA58;
+padding-top:20px;
+padding-bottom:60px;
+}
+
+#Copyright {
+width:600px;
+float:left;
+}
+
+#CharityNo {
+width:340px;
+float:right;
+text-align:right;
+}
+
+#PrivacyPolicyLink {
+width:330px;
+float:right;
+padding-right:10px;
+text-align:right;
+}
+
+/****Menus ****/
+ul#Menu1 {
+padding-left:0em;
+margin-left:0em;
+list-style-type:none;
+}
+
+#Menu1 {
+width:705px;
+float:left;
+margin-bottom:10px;
+background-color:#64A795;
+background-image:url('../images/Menu1Bg.jpg');
+}
+
+#Menu1 li {
+width:auto;
+float:left;
+padding:11px 20px;
+margin-bottom:0em;
+font-family:Lucida Sans;
+font-weight:600;
+font-size:1.2em;
+}
+
+#Menu1 li a:link, #Menu1 li a:visited {
+color:#FFF;
+text-decoration:none;
+}
+
+#Menu1 li a:hover {
+text-decoration:underline;
+}
+
+#Menu2 {
+font-family:Lucida Sans;
+font-size:0.9em;
+font-weight:600;
+list-style: none;
+padding:0px;
+margin:4px 0 0 0;
+}
+
+#Menu2 li {
+line-height:1.2em;
+margin:0 0 10px 0;
+padding:2px 0 5px 30px;
+background-image:url('bullet.gif');
+background-repeat:no-repeat;
+}
+
+#Menu2 li a:link, #Menu2 li a:visited {
+color:#000;
+text-decoration:none;
+padding:0px;
+margin:0px;
+}
+
+#Menu2 li a:hover {
+text-decoration:underline;
+}
+
+
+/**** Text ****/
+h1#SiteTitle {
+width:auto;
+/*float:left;*/
+font-weight:100;
+font-family:lucida sans,arial narrow,sans-serif;
+font-size:2.4em;
+letter-spacing:0.01em;
+font-style:bold;
+height:106px;
+line-height:280%;
+}
+
+h2 {
+font-size:1.8em;
+margin-top:0em;
+margin-bottom:1em;
+line-height:1.4em;
+
+}
+
+h3 {
+font-size:1.4em;
+margin-top:1.8em;
+margin-bottom:0.5em;
+}
+
+h4 {
+font-size:1.2em;
+margin-top:1.5em;
+margin-bottom:0.5em;
+}
+
+p {
+margin-bottom:1em;
+}
+
+ul {
+padding-left:3em;
+margin-left:0em;
+list-style-type:disc;
+}
+
+li {
+padding-left:0.5em;
+margin-bottom:1em;
+}
+
+.Date {
+font-size:0.8em;
+}
+
+.BigText {
+font-size:2em;
+font-weight:700;
+margin-top:1.2em;
+}
+
+.StandOutHeader {
+width:210px; float:right; margin:0 0 0 15px; padding: 10px; border:solid 2px #58FA58; background:#FFFFFF; font-family:Lucida Sans; font-weight:900
+}
+.StandOut {
+width:210px; float:right; margin:0 0 15px 15px; padding: 10px; border:solid 2px #58FA58; background:#58FA58; font-family:Lucida Sans; clear:both
+}
